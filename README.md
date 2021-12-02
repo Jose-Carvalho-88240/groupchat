@@ -1,15 +1,18 @@
 # groupchat
+>To compile the program:
 
-To compile the program:
     > make all (compiled for the host)
     > make RASPall (compiled for the target)
 
-To clean the compiled images:
+>To clean the compiled images:
+
     > make clean
 
-To run the program:
+>To run the program:
+
     - CONNECT THE SERVER
         > make run.server (runs server on the host)
+        
         > make RASPrun.server (runs server on the target)
         > ./server.elf (PORT)
 
