@@ -1,4 +1,5 @@
 The entities of the program are:
+
     > Client
     > Client Message Manager Daemon
     > Server
@@ -63,6 +64,7 @@ The Client Message Manager Daemon:
                 > client: send the client command to the server
 
 The server:
+
     >The server main process:
         >Open the TCP-IP connection
 

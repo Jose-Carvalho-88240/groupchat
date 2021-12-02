@@ -1,4 +1,4 @@
-# groupchat
+# Compiling and running the Group Chat
 >To compile the program:
 
     > make all (compiled for the host)
