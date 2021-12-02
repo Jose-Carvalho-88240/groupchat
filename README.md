@@ -31,5 +31,3 @@
             
             (!) messages and other system info is stored in
             /var/log/groupchat_(client name).log
-    
-# Teste
