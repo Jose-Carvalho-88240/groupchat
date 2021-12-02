@@ -49,6 +49,7 @@ struct client_socket_info
 	enum clientStatus status;
 	int index;
 	char name[20];
+	
 };
 
 client_socket_info_t socket_table[MAX_CLIENT_NUM];

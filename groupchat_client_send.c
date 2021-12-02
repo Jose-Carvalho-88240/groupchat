@@ -14,14 +14,11 @@
 
 int main(int argc, char *argv[]) {
     mqd_t msgq_id;
-    pid_t my_pid = getpid();
 
     if(argc!=2){
     	printf("Usage: %s \"Message to send\"\n", argv[0]);
     	exit(1);
     }
-
-    time_t currtime;
    
     /* opening the queue using default attributes  --  mq_open() */
     msgq_id = mq_open(MSGQOBJ_NAME, O_RDWR | O_CREAT , S_IRWXU | S_IRWXG, NULL);
