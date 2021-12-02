@@ -14,6 +14,7 @@
         > make run.server (runs server on the host)
         
         > make RASPrun.server (runs server on the target)
+        
         > ./server.elf (PORT)
 
     - CONNECT THE CLIENT
